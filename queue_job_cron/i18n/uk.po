@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__channel_id
 msgid "Channel"
 msgstr "Канал"
+
+#. module: queue_job_cron
+#: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__no_parallel_queue_job_run
+msgid "No Parallel Queue Job Run"
+msgstr "Не запускати завдання черги паралельно"
+
+#. module: queue_job_cron
+#: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__run_as_queue_job
+msgid "Run As Queue Job"
+msgstr "Запустити як завдання черги"

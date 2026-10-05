@@ -42,3 +42,8 @@ msgstr "Користувачі профілювання"
 #: model_terms:ir.ui.view,arch_db:queue_job_profiler.queue_job_form_profiler
 msgid "View profiler"
 msgstr "Переглянути профайлер"
+
+#. module: queue_job_profiler
+#: model:ir.model.fields,field_description:queue_job_profiler.field_queue_job_function__profiling_enabled
+msgid "Profiling enabled"
+msgstr "Профілювання увімкнено"
