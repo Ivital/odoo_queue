@@ -756,3 +756,148 @@ msgstr "Забагато спроб"
 #: model:ir.model.fields,help:queue_job.field_queue_job__activity_exception_decoration
 msgid "Type of the exception activity on record."
 msgstr "Тип дії-винятку для запису."
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_channel__paused
+msgid ""
+"A paused channel (an its sub-channels) do not execute any jobs until "
+"resumed."
+msgstr ""
+"Призупинений канал (і його підканали) не виконує завдань до відновлення."
+
+#. module: queue_job
+#: model:ir.model,name:queue_job.model_queue_jobs_to_cancelled
+msgid "Cancel all selected jobs"
+msgstr "Скасувати всі вибрані завдання"
+
+#. module: queue_job
+#: model:ir.model.constraint,message:queue_job.constraint_queue_job_channel_name_uniq
+msgid "Channel complete name must be unique"
+msgstr "Повна назва каналу має бути унікальною"
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_channel__capacity_default
+msgid ""
+"Default capacity for unconfigured sub-channels. 0 means they would have the "
+"same capacity as the current channel."
+msgstr ""
+"Типова місткість неналаштованих підканалів. 0 означає таку саму місткість, "
+"як у поточного каналу."
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_channel__sequential_default
+msgid "If sequential is enabled for unconfigured sub-channels."
+msgstr "Якщо послідовність увімкнено для неналаштованих підканалів."
+
+#. module: queue_job
+#: model:ir.model,name:queue_job.model_queue_job_channel
+msgid "Job Channels"
+msgstr "Канали завдань"
+
+#. module: queue_job
+#: model:res.groups,name:queue_job.group_queue_job_manager
+msgid "Job Queue Manager"
+msgstr "Менеджер черги завдань"
+
+#. module: queue_job
+#: model:mail.message.subtype,name:queue_job.mt_job_failed
+msgid "Job failed"
+msgstr "Завдання завершилося помилкою"
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_channel__sequential
+msgid ""
+"Jobs are executed one after the other and failed jobs block the channel. "
+"Requires a capacity of 1."
+msgstr ""
+"Завдання виконуються послідовно, а невдалі завдання блокують канал. Потрібна"
+" місткість 1."
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_channel__capacity
+msgid ""
+"Maximum number of jobs running at the same time in this channel. 0 means no "
+"limit, but they are still limited by the capacity of the parent channel. On "
+"the root channel, 0 is limited by the global server-wide configuration."
+msgstr ""
+"Максимальна кількість завдань, що одночасно виконуються в цьому каналі. 0 "
+"означає відсутність обмеження, але вони все одно обмежені місткістю "
+"батьківського каналу. Для кореневого каналу 0 обмежується глобальною "
+"конфігурацією сервера."
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_channel__throttle
+msgid ""
+"Minimum delay in seconds between the start of two jobs in this channel."
+msgstr ""
+"Мінімальна затримка в секундах між запуском двох завдань у цьому каналі."
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_function__on_fail_method
+msgid ""
+"Model function to be called if the job is failed and will not be retried."
+msgstr ""
+"Функція моделі, яку буде викликано, якщо завдання завершилося помилкою й "
+"більше не повторюватиметься."
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_channel__removal_interval
+msgid "Number of days after which done jobs are deleted."
+msgstr "Кількість днів, після яких виконані завдання видаляються."
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_function__edit_retry_pattern
+msgid ""
+"Pattern expressing from the count of retries on retryable errors, the number of of seconds to postpone the next execution. Setting the number of seconds to a 2-element tuple or list will randomize the retry interval between the 2 values.\n"
+"Example: {1: 10, 5: 20, 10: 30, 15: 300}.\n"
+"Example: {1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}.\n"
+"See the module description for details."
+msgstr ""
+"Шаблон, який залежно від кількості повторних спроб після повторюваних помилок задає кількість секунд до наступного виконання. Якщо кількість секунд указати як кортеж або список із 2 елементів, інтервал повторної спроби буде випадковим між цими двома значеннями.\n"
+"Приклад: {1: 10, 5: 20, 10: 30, 15: 300}.\n"
+"Приклад: {1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}.\n"
+"Докладніше див. в описі модуля."
+
+#. module: queue_job
+#: model:ir.model,name:queue_job.model_queue_job_lock
+msgid "Queue Job Lock"
+msgstr "Блокування завдання черги"
+
+#. module: queue_job
+#: model:ir.model,name:queue_job.model_queue_jobs_to_done
+msgid "Set all selected jobs to done"
+msgstr "Позначити всі вибрані завдання виконаними"
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job__graph_uuid
+msgid "Single shared identifier of a Graph. Empty for a single job."
+msgstr "Єдиний спільний ідентифікатор графа. Порожньо для одного завдання."
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_function__edit_related_action
+msgid ""
+"The action when the button *Related Action* is used on a job. The default action is to open the view of the record related to the job. Configured as a dictionary with optional keys: enable, func_name, kwargs.\n"
+"See the module description for details."
+msgstr ""
+"Дія, що виконується при використанні кнопки *Пов'язана дія* у завданні. Типова дія — відкрити подання запису, пов'язаного із завданням. Налаштовується як словник із необов'язковими ключами: enable, func_name, kwargs.\n"
+"Докладніше див. в описі модуля."
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job__max_retries
+msgid ""
+"The job will fail if the number of tries reach the max. retries.\n"
+"Retries are infinite when empty."
+msgstr ""
+"Завдання завершиться помилкою, якщо кількість спроб досягне максимуму.\n"
+"Якщо порожньо, кількість повторів необмежена."
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job__exec_time
+msgid "Time required to execute this job in seconds. Average when grouped."
+msgstr ""
+"Час виконання цього завдання в секундах. Середнє значення при групуванні."
+
+#. module: queue_job
+#: model:ir.model,name:queue_job.model_queue_requeue_job
+msgid "Wizard to requeue a selection of jobs"
+msgstr "Майстер повторної постановки вибраних завдань у чергу"

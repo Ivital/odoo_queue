@@ -27,3 +27,20 @@ msgstr "Не запускати завдання черги паралельно
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__run_as_queue_job
 msgid "Run As Queue Job"
 msgstr "Запустити як завдання черги"
+
+#. module: queue_job_cron
+#: model:ir.model.fields,help:queue_job_cron.field_ir_cron__no_parallel_queue_job_run
+msgid ""
+"Avoid parallel run. If the cron job is already running, the new one will be "
+"skipped. By default, odoo never runs the same cron job in parallel. This "
+"option is therefore set to True by default when job is run as a queue job."
+msgstr ""
+"Уникати паралельного запуску. Якщо cron-завдання вже виконується, новий "
+"запуск буде пропущено. Типово Odoo ніколи не запускає те саме cron-завдання "
+"паралельно. Тому цей параметр типово встановлено в True, коли завдання "
+"виконується як завдання черги."
+
+#. module: queue_job_cron
+#: model:ir.model.fields,help:queue_job_cron.field_ir_cron__run_as_queue_job
+msgid "Specify if this cron should be ran as a queue job"
+msgstr "Укажіть, чи має цей cron виконуватися як завдання черги"
