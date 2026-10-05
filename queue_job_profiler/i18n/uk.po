@@ -70,3 +70,9 @@ msgstr ""
 #: model:ir.model.fields,help:queue_job_profiler.field_queue_job__job_is_profiled
 msgid "Whether this job has been profiled or not."
 msgstr "Чи було профільовано це завдання."
+
+#. module: queue_job_profiler
+#. odoo-python
+#: code:addons/queue_job_profiler/models/queue_job_function.py:0
+msgid "A profiling until date must be set when profiling is enabled."
+msgstr "Коли профілювання ввімкнено, потрібно вказати дату його завершення."

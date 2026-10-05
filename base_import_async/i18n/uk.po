@@ -18,3 +18,48 @@ msgstr ""
 #: code:addons/base_import_async/models/queue_job.py:0
 msgid "Attachment"
 msgstr "Вкладення"
+
+#. module: base_import_async
+#. odoo-python
+#: code:addons/base_import_async/models/base_import_import.py:0
+msgid ""
+"Import %(model)s from file %(file_name)s - #%(chunk)s - lines %(from)s to "
+"%(to)s"
+msgstr ""
+"Імпорт %(model)s з файлу %(file_name)s - №%(chunk)s - рядки %(from)s–%(to)s"
+
+#. module: base_import_async
+#. odoo-python
+#: code:addons/base_import_async/models/base_import_import.py:0
+msgid "Import %(model)s from file %(from_file)s"
+msgstr "Імпортувати %(model)s з файлу %(from_file)s"
+
+#. module: base_import_async
+#. odoo-javascript
+#: code:addons/base_import_async/static/src/xml/import_data_sidepanel.xml:0
+msgid "Import in the background"
+msgstr "Імпортувати у фоновому режимі"
+
+#. module: base_import_async
+#. odoo-javascript
+#: code:addons/base_import_async/static/src/xml/import_data_sidepanel.xml:0
+msgid ""
+"When checked, the import will be executed as a background job, after "
+"splitting your file in small chunks that will be processed independently. "
+"Use this to import very large files."
+msgstr ""
+"Якщо позначено, імпорт виконуватиметься як фонове завдання після поділу "
+"файла на невеликі частини, які оброблятимуться незалежно. Використовуйте це "
+"для імпорту дуже великих файлів."
+
+#. module: base_import_async
+#. odoo-javascript
+#: code:addons/base_import_async/static/src/js/import_model.esm.js:0
+msgid "You can check the status of this job in menu 'Queue / Jobs'."
+msgstr "Статус цього завдання можна перевірити в меню «Черга / Завдання»."
+
+#. module: base_import_async
+#. odoo-javascript
+#: code:addons/base_import_async/static/src/js/import_model.esm.js:0
+msgid "Your request is being processed"
+msgstr "Ваш запит обробляється"

@@ -901,3 +901,141 @@ msgstr ""
 #: model:ir.model,name:queue_job.model_queue_requeue_job
 msgid "Wizard to requeue a selection of jobs"
 msgstr "Майстер повторної постановки вибраних завдань у чергу"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_channel.py:0
+msgid "A channel with a sequential default must have a default capacity of 1."
+msgstr "Канал із типовим послідовним режимом повинен мати типову місткість 1."
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_channel.py:0
+msgid "A sequential channel must have a capacity of 1."
+msgstr "Послідовний канал повинен мати місткість 1."
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/controllers/main.py:0
+msgid "Access Denied"
+msgstr "Доступ заборонено"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job.py:0
+msgid "Cancelled by {}"
+msgstr "Скасовано користувачем {}"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_channel.py:0
+msgid "Cannot change the root channel"
+msgstr "Не можна змінити кореневий канал"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_channel.py:0
+msgid "Cannot remove the root channel"
+msgstr "Не можна видалити кореневий канал"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_function.py:0
+msgid "Invalid job function: {}"
+msgstr "Недійсна функція завдання: {}"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job.py:0
+msgid "Jobs for graph %s"
+msgstr "Завдання для графа %s"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job.py:0
+msgid "Manually set to done by {}"
+msgstr "Вручну позначено виконаним користувачем {}"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_function.py:0
+msgid "Model {} not found"
+msgstr "Модель {} не знайдено"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job.py:0
+msgid "No action available for this job"
+msgstr "Немає доступних дій для цього завдання"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job.py:0
+msgid "Not allowed to change field(s): {}"
+msgstr "Не дозволено змінювати поля: {}"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_channel.py:0
+msgid "Parent channel required."
+msgstr "Потрібен батьківський канал."
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job.py:0
+msgid "Related Record"
+msgstr "Пов’язаний запис"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job.py:0
+msgid ""
+"Something bad happened during the execution of the job. More details in the "
+"'Exception Information' section."
+msgstr ""
+"Під час виконання завдання сталася помилка. Докладніше дивіться в розділі "
+"«Інформація про виняток»."
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_channel.py:0
+msgid "The capacity of a channel cannot be negative."
+msgstr "Місткість каналу не може бути від’ємною."
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_channel.py:0
+msgid "The default capacity of a channel cannot be negative."
+msgstr "Типова місткість каналу не може бути від’ємною."
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_channel.py:0
+msgid "The throttle of a channel cannot be negative."
+msgstr "Обмеження пропускної здатності каналу не може бути від’ємним."
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_function.py:0
+msgid ""
+"Unexpected format of Related Action for {}.\n"
+"Example of valid format:\n"
+"{{\"enable\": True, \"func_name\": \"related_action_foo\", \"kwargs\" {{\"limit\": 10}}}}"
+msgstr ""
+"Неочікуваний формат пов’язаної дії для {}.\n"
+"Приклад дійсного формату:\n"
+"{{\"enable\": True, \"func_name\": \"related_action_foo\", \"kwargs\" {{\"limit\": 10}}}}"
+
+#. module: queue_job
+#. odoo-python
+#: code:addons/queue_job/models/queue_job_function.py:0
+msgid ""
+"Unexpected format of Retry Pattern for {}.\n"
+"Example of valid formats:\n"
+"{{1: 300, 5: 600, 10: 1200, 15: 3000}}\n"
+"{{1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}}"
+msgstr ""
+"Неочікуваний формат шаблону повторів для {}.\n"
+"Приклади дійсних форматів:\n"
+"{{1: 300, 5: 600, 10: 1200, 15: 3000}}\n"
+"{{1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}}"

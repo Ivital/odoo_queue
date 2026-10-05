@@ -319,3 +319,21 @@ msgstr "Пакет завдань"
 #: model:res.groups,name:queue_job_batch.group_queue_job_batch_user
 msgid "Job Queue Batch User"
 msgstr "Користувач пакета черги завдань"
+
+#. module: queue_job_batch
+#. odoo-javascript
+#: code:addons/queue_job_batch/static/src/components/QueueJobBatchMenu.xml:0
+msgid "Mark as Read"
+msgstr "Позначити як прочитане"
+
+#. module: queue_job_batch
+#. odoo-javascript
+#: code:addons/queue_job_batch/static/src/components/QueueJobBatchMenu.xml:0
+msgid "No jobs to view."
+msgstr "Немає завдань для перегляду."
+
+#. module: queue_job_batch
+#. odoo-javascript
+#: code:addons/queue_job_batch/static/src/components/QueueJobBatchMenu.xml:0
+msgid "View all job batches"
+msgstr "Переглянути всі пакети завдань"
