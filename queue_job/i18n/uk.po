@@ -1,0 +1,304 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__allow_commit
+msgid "Allow Commit"
+msgstr "Дозволити commit"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__args
+msgid "Args"
+msgstr "Аргументи"
+
+#. module: queue_job
+#: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__cancelled
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__capacity
+msgid "Capacity"
+msgstr "Місткість"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__channel
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__channel_id
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_function_search
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Channel"
+msgstr "Канал"
+
+#. module: queue_job
+#: model:ir.actions.act_window,name:queue_job.action_queue_job_channel
+#: model:ir.ui.menu,name:queue_job.menu_queue_job_channel
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_channel_form
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_channel_search
+msgid "Channels"
+msgstr "Канали"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__date_created
+msgid "Created Date"
+msgstr "Дата створення"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__create_uid
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__create_uid
+#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__create_uid
+#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__create_uid
+#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__create_date
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__create_date
+#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__create_date
+#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__create_date
+#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__retry
+msgid "Current try"
+msgstr "Поточна спроба"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__date_done
+msgid "Date Done"
+msgstr "Дата виконання"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__dependencies
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_form
+msgid "Dependencies"
+msgstr "Залежності"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__name
+msgid "Description"
+msgstr "Опис"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__display_name
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__display_name
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__display_name
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__display_name
+#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__display_name
+#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__display_name
+#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: queue_job
+#: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__done
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Done"
+msgstr "Готово"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__exc_name
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Exception"
+msgstr "Виняток"
+
+#. module: queue_job
+#: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__failed
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Failed"
+msgstr "Невдалі"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__graph_uuid
+msgid "Graph UUID"
+msgstr "UUID графіка"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__job_function_id
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Job Function"
+msgstr "Посадова функція"
+
+#. module: queue_job
+#: model:ir.actions.act_window,name:queue_job.action_queue_job_function
+#: model:ir.model,name:queue_job.model_queue_job_function
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__job_function_ids
+#: model:ir.ui.menu,name:queue_job.menu_queue_job_function
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_channel_form
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_function_form
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_function_search
+msgid "Job Functions"
+msgstr "Посадові функції"
+
+#. module: queue_job
+#: model:ir.module.category,name:queue_job.module_category_queue_job
+#: model:ir.ui.menu,name:queue_job.menu_queue_job_root
+msgid "Job Queue"
+msgstr "Черга завдань"
+
+#. module: queue_job
+#: model:ir.actions.act_window,name:queue_job.action_queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__job_ids
+#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__job_ids
+#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__job_ids
+#: model:ir.ui.menu,name:queue_job.menu_queue_job
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_form
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_graph
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_pivot
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Jobs"
+msgstr "Завдання"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__method
+msgid "Method"
+msgstr "Метод"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__method_name
+msgid "Method Name"
+msgstr "Назва методу"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__model_name
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__model_id
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Model"
+msgstr "Модель"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__name
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__paused
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_channel_search
+msgid "Paused"
+msgstr "Призупинено"
+
+#. module: queue_job
+#: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__pending
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Pending"
+msgstr "Очікують"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__priority
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Priority"
+msgstr "Пріоритет"
+
+#. module: queue_job
+#: model:ir.ui.menu,name:queue_job.menu_queue
+msgid "Queue"
+msgstr "Черга"
+
+#. module: queue_job
+#: model:ir.model,name:queue_job.model_queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__queue_job_id
+msgid "Queue Job"
+msgstr "Завдання черги"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__records
+msgid "Record(s)"
+msgstr "Запис(и)"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__result
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_form
+msgid "Result"
+msgstr "Результат"
+
+#. module: queue_job
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_form
+msgid "Results"
+msgstr "Результати"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__sequential
+msgid "Sequential"
+msgstr "Послідовний"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__date_started
+msgid "Start Date"
+msgstr "Дата початку"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__state
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "State"
+msgstr "Стан"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__func_string
+msgid "Task"
+msgstr "Завдання"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__throttle
+msgid "Throttle"
+msgstr "Обмеження частоти"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__user_id
+msgid "User ID"
+msgstr "ID користувача"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__worker_pid
+msgid "Worker Pid"
+msgstr "PID працівника"

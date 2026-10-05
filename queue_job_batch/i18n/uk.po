@@ -1,0 +1,139 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__completeness
+#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
+#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_tree
+msgid "Completeness"
+msgstr "Повнота"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: queue_job_batch
+#. odoo-javascript
+#: code:addons/queue_job_batch/static/src/components/QueueJobBatchMenu.esm.js:0
+msgid "Failed"
+msgstr "Невдалі"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: queue_job_batch
+#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
+msgid "In progress"
+msgstr "В роботі"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__is_read
+msgid "Is Read"
+msgstr "Прочитано"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__job_ids
+msgid "Job"
+msgstr "Завдання"
+
+#. module: queue_job_batch
+#. odoo-javascript
+#: code:addons/queue_job_batch/static/src/QueueJobBatchModel.esm.js:0
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__job_batch_id
+#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
+msgid "Job Batch"
+msgstr "Пакет завдань"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__job_count
+msgid "Job Count"
+msgstr "Кількість завдань"
+
+#. module: queue_job_batch
+#. odoo-javascript
+#: code:addons/queue_job_batch/static/src/components/QueueJobBatchMenu.xml:0
+#: model:ir.actions.act_window,name:queue_job_batch.action_queue_job_batch
+#: model:ir.actions.act_window,name:queue_job_batch.action_view_your_queue_job_batch
+#: model:ir.ui.menu,name:queue_job_batch.menu_queue_job_batch
+msgid "Job batches"
+msgstr "Пакети завдань"
+
+#. module: queue_job_batch
+#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
+msgid "Jobs"
+msgstr "Завдання"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: queue_job_batch
+#: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__pending
+#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
+msgid "Pending"
+msgstr "Очікують"
+
+#. module: queue_job_batch
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__state
+#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
+msgid "State"
+msgstr "Стан"
+
+#. module: queue_job_batch
+#. odoo-javascript
+#: code:addons/queue_job_batch/static/src/components/QueueJobBatchMenu.esm.js:0
+msgid "Total"
+msgstr "Разом"
+
+#. module: queue_job_batch
+#: model:ir.model,name:queue_job_batch.model_res_users
+#: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__user_id
+#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
+msgid "User"
+msgstr "Користувач"
