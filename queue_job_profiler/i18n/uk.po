@@ -22,3 +22,23 @@ msgstr "Посадові функції"
 #: model:ir.model.fields,field_description:queue_job_profiler.field_queue_job__job_is_profiled
 msgid "Profiled"
 msgstr "Профільовано"
+
+#. module: queue_job_profiler
+#: model_terms:ir.ui.view,arch_db:queue_job_profiler.queue_job_function_form_profiler
+msgid "Profiler"
+msgstr "Профайлер"
+
+#. module: queue_job_profiler
+#: model:ir.model.fields,field_description:queue_job_profiler.field_queue_job_function__profiling_until
+msgid "Profiling until"
+msgstr "Профілювання до"
+
+#. module: queue_job_profiler
+#: model:ir.model.fields,field_description:queue_job_profiler.field_queue_job_function__profiling_user_ids
+msgid "Profiling users"
+msgstr "Користувачі профілювання"
+
+#. module: queue_job_profiler
+#: model_terms:ir.ui.view,arch_db:queue_job_profiler.queue_job_form_profiler
+msgid "View profiler"
+msgstr "Переглянути профайлер"
